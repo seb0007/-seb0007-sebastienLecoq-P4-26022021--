@@ -647,6 +647,7 @@ h3,
 h4,
 h5,
 h6,
+p,
 label,
 .btn,
 a {
@@ -654,9 +655,6 @@ a {
     font-weight: 400;
     color: black!important;
 }
-
-p
-{color: #FFFFFF;}
 
 .container {
     max-width: 1000px;
@@ -740,7 +738,7 @@ h4 {
 }
 
 .white {
-   /* color: #FFFFFF!important;*/
+    color: #FFFFFF!important;
    font-weight: 800;
    text-decoration: none;
 }
@@ -1083,6 +1081,7 @@ h4 {
 {
     text-align: center;
 }
+
 
 .form-group
 {
