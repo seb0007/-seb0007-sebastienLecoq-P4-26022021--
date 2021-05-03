@@ -136,6 +136,7 @@ a:hover {
     color: rgba(255, 255, 255, .6);
 }
 
+
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -317,7 +318,7 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
+    margin-right: 80px;/*ok*/
     float: right;
     z-index: 1;
 }
@@ -326,6 +327,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    margin-right: 20px;  /*ok*/
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -651,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -736,7 +738,9 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+   /* color: #FFFFFF!important;*/
+   font-weight: 800;
+   text-decoration: none;
 }
 
 .portfolio-thumb {
@@ -776,12 +780,12 @@ h4 {
 
 .tc-white {
     color: #FFFFFF!important;
+    font-weight: 900;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
-    ffff
 }
 
 .btn-atomic-tangerine:hover {
@@ -1040,4 +1044,38 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .row
+    {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+}
+
+.navbar-header
+{
+    display: flex;
+}
+
+
+.nav > li a 
+{
+    text-decoration: none;
+   /* list-style-type: none;*/
+}
+
+.col-sm-12 h1
+{
+    text-align: center;
+}
+
+.form-group
+{
+    margin-top: 20px;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-evenly;
 }
