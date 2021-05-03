@@ -647,7 +647,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -655,6 +654,9 @@ a {
     font-weight: 400;
     color: black!important;
 }
+
+p
+{color: #FFFFFF;}
 
 .container {
     max-width: 1000px;
@@ -1057,10 +1059,12 @@ h4 {
         margin: auto;
     }
 
-    .col-sm-12 p 
+    .col-sm-12-text-center img 
     {
-        color: #FFFFFF;
+        flex-wrap: wrap;
+        margin: 0px;
     }
+
 }
 
 .navbar-header
@@ -1085,8 +1089,4 @@ h4 {
     margin-top: 20px;
 }
 
-.row
-{
-    display: flex;
-    justify-content: space-evenly;
-}
+
